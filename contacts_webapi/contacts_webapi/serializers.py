@@ -6,5 +6,5 @@ from .models import Contact
 class ContactSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Contact
-        # fields = ["name", "email", "phone",]
-        fields = "__all__"
+        fields = ["url","id","name", "email", "phone",]
+        #fields = "__all__"
