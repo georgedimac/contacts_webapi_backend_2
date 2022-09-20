@@ -23,6 +23,10 @@ Tested with Python 3, Django 4 , Django REST framework 3
 
 
 ```bash
+# Create a virtual environment to isolate our package dependencies locally
+python3 -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+
 pip3 install -r requirements.txt
 python3 manage.py runserver
 ```
