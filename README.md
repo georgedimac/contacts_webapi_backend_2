@@ -13,6 +13,11 @@ Tested with Python 3, Django 4 , Django REST framework 3
 | GET /contact/        | Get all contacts            
 | GET, POST, PUT, DELETE /contact/{id}           | Get, Add, Update, Delete Contact               | 
 
+| Parameter | Type     | 
+| :-------- | :------- | 
+| `name` | `string` | 
+| `email` | `string` | 
+| `phone` | `string` | 
 
 ## Installation
 
