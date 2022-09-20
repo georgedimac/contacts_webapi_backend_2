@@ -4,7 +4,9 @@ Python,Django backend webapi
 
 Tested with Python 3, Django 4 , Django REST framework 3
 
-/frontend soon/
+Runs on : http://localhost:5076/
+
+Can be used with Angular frontend [demo](https://github.com/georgedimac/contacts_webapi_frontend/tree/ver2/)
 
 
 ## API Reference
